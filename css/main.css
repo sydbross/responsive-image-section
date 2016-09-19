@@ -30,7 +30,11 @@ a {
   text-decoration: none;
   color:#fff;
   border-radius: 4px;
+  text-align: center;
+}
 
+a:hover {
+  background-color: #000;
 }
 
 .content {
@@ -52,20 +56,42 @@ section {
 
 @media only screen and (min-width: 25em) {
 
+  html {
+    font-size: 110%/1.4;
+    vertical-align: middle;
+  }
 
 }
 
 @media only screen and (min-width: 38em) {
 
+  html {
+    font-size: 110%/1.4;
+  }
+
+  .content {
+    max-width: 48%;
+    display: inline-block;
+    text-align: left;
+  }
+
+  .img {
+    max-width: 48%;
+    display: inline-block;
+  }
 
 }
 
 @media only screen and (min-width: 60em) {
 
-
+  html {
+    font-size: 120%/1.5;
+  }
 }
 
 @media only screen and (min-width: 90em) {
 
-
+  html {
+    font-size: 130%/1.5;
+  }
 }
