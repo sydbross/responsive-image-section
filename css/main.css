@@ -97,6 +97,18 @@ a:hover {
     font-size: 120%;
     line-height: 1.5;
   }
+
+  .img-flex {
+    max-width: 94%;
+  }
+
+  .img {
+    padding-top: 2em;
+  }
+
+  .content {
+    padding-left: 2em;
+  }
 }
 
 @media only screen and (min-width: 90em) {
@@ -105,4 +117,8 @@ a:hover {
     font-size: 130%;
     line-height: 1.5;
   }
+
+	.img-flex {
+		max-width: 90%;
+	}
 }
